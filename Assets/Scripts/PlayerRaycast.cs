@@ -17,7 +17,7 @@ public class PlayerRaycast : MonoBehaviour
 
                 if (npc != null)
                 {
-                    npc.ShowDialogue();
+                    //npc.ShowDialogue();
                 }
             }
         }

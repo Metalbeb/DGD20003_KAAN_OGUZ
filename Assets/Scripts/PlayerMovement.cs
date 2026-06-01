@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
     {
 
-        playerControls.Player.Enable();
+        playerControls?.Player.Enable();
 
     }
 
@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     {
 
-        playerControls.Player.Disable();
+        playerControls?.Player.Disable();
 
     }
 
